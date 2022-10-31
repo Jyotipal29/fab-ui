@@ -19,6 +19,8 @@
     align-items: center;
     /* max-width: 100%; */
     margin:auto;
+    /* border: 1px solid black; */
+    margin-top:70px;
 }
 
 /* avatar */
@@ -29,7 +31,23 @@
     align-items: center;
    margin-top:15px;
 }
-
+.comp p{
+    text-align: left;
+}
+.comp h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.intro-comp{
+    text-align: left;
+}
+.intro-heading{
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.intro-text{
+    font-size: 18px;
+}
 .av-con{
     display: flex;
     justify-content:center;

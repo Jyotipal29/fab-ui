@@ -16,11 +16,15 @@ h1,h2,h3,h4{
     text-align: left;
 }
 .intro{
-    padding-top:2rem;
+    /* padding:1rem; */
 }
 .intro h3{
     text-align: left;
     
+}
+.intro p{
+    text-align: left;
+
 }
 .nav-container{
     height: 10vh;
@@ -47,6 +51,10 @@ h1,h2,h3,h4{
     margin:0px 30px;
 
 }
+.logo a{
+    color:var(--color-white);
+
+}
 .side-nav{
     width:20%;
     float: left;
@@ -64,15 +72,18 @@ h1,h2,h3,h4{
     align-items: center;
     padding:10px 0px;
 }
+.side-wrapper h3{
+    color:var(--color-white);
+}
 .links{
-    padding:10px 0;
+    padding:15px 0;
     font-size: 20px;
     color:var(--color-white);
 }
 .main-doc{
     width:80%;
     float: right;
-    margin-top:50px;
+    /* margin-top:50px; */
     padding:10px 20px;
    
    
