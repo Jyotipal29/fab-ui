@@ -34,6 +34,7 @@ h1,h2,h3,h4{
     left:0;
     width:100%;
     z-index: 999;
+    margin-bottom:150px;
 }
 .nav{
     display: flex;
@@ -79,6 +80,7 @@ h1,h2,h3,h4{
     padding:15px 0;
     font-size: 20px;
     color:var(--color-white);
+    cursor: pointer;
 }
 .main-doc{
     width:80%;
