@@ -24,7 +24,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border:1px solid black; */
     margin-top:70px;
 }
 
@@ -385,7 +384,10 @@ nav ul li:hover {
     width:350px;
 
 }
-
+.nav-con{
+    max-width: 350px;
+    margin: 0 30px;
+}
 nav .logo {
     font-size:18px;
     padding: 20px 0px;
@@ -395,7 +397,7 @@ nav ul {
     margin: 0 5px;
 }
 nav ul li{
-    font-size: 12px;
+    font-size: 16px;
     margin: 0 5px;
     padding:0;
 }
